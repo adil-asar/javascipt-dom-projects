@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabs</title>
+    <link rel="stylesheet" href="tabs.css" />
+  </head>
+  <body>
+    <div class="tabbtns">
+      <button class="tablink" onclick="openTab(event , 'home')">Home</button>
+      <button class="tablink" onclick="openTab(event , 'about')">About</button>
+      <button class="tablink" onclick="openTab(event , 'gallery')">
+        Gallery
+      </button>
+    </div>
+
+    <div class="tabcontents" id="home">
+      <h2>Home</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur
+        officiis eligendi, nesciunt quaerat architecto dicta amet cumque dolorum
+        voluptatem fugit sunt rerum explicabo autem reiciendis aspernatur
+        beatae, consequuntur cum.
+      </p>
+    </div>
+    <div class="tabcontents" id="about">
+      <h2>About</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur
+        officiis eligendi, nesciunt quaerat architecto dicta amet cumque dolorum
+        voluptatem fugit sunt rerum explicabo autem beatae, consequuntur cum.
+      </p>
+    </div>
+    <div class="tabcontents" id="gallery">
+      <h2>Gallery</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur
+        officiis eligendi, nesciunt quaerat architecto dicta amet cumque dolorum
+        voluptatem fugit sunt rerum explicabo autem beatae, consequuntur cum.
+      </p>
+    </div>
+
+    <script src="tabs.js"></script>
+  </body>
+</html>
