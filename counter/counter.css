@@ -29,23 +29,19 @@ body{
 
 #counter{
     font-size: 35px;
-    width: 60px;
-    height: 60px;
-   padding: 9px;
-   border-radius: 5px;
-    margin-bottom: 1rem;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-    color: white;
+    margin-bottom: 25px;
+    
 }
 
 button{
-    padding:  8px 15px ;
+    padding:10px 15px ;
     border: none;
-    margin: 15px;
+    margin:0 15px;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 22px;
     letter-spacing: 1px;
     color: white;
-    border-radius: 5px;
+    width: 60px;height: 60px;
+    border-radius: 30px;
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     }
