@@ -59,8 +59,8 @@
 }
 
 .show-text {
- height: 160px;
-  transition:  0.5s !important;
+ height: 105px;
+  transition:  .5s !important;
 
 
 }
